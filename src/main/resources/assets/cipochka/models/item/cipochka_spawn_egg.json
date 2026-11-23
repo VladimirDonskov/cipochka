@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cipochka:item/cipochka_spawn_egg"
+  }
+}

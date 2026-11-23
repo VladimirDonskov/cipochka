@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "cipochka",
+	"version": "${version}",
+	"name": "Cipochka",
+	"description": "Adds the Cipochka - a pink chicken with pink chicks and its own spawn egg.",
+	"authors": ["Vladimir Donskov"],
+	"license": "MIT",
+	"icon": "assets/cipochka/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["ru.donskov.cipochka.CipochkaMod"],
+		"client": ["ru.donskov.cipochka.client.CipochkaModClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
